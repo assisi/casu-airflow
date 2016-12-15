@@ -32,7 +32,12 @@ while 1:
 	
 	# get referenced valve number
 	valve = int(name[-3:])
-	
+
+        # Map all names to the 1-32 range, because we're currently
+        # using only one valve block with 32 valves!
+        if valve > 32:
+                valve -= 32
+        
 	# get valve address byte and number in byte
 	[byteIdx, valveIdx] = divmod(valve-1, 8)
 	valveIdx = valveIdx + 1
