@@ -7,7 +7,10 @@ It acts as a proxy to the valves for ohter CASUs.
 
 The following packages need to be installed on the BBG
 
-`sudo pip install pymodbus`
+```
+sudo apt install python-zmq
+sudo pip install pymodbus
+```
 
 ## Deployment
 

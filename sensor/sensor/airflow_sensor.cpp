@@ -31,7 +31,7 @@ int main(int argc, char **argv) {
 		}
         else
         {
-            printf("Corrupt data packet received!")
+            printf("Corrupt data packet received!");
         }
 		sleep(3);
 		
