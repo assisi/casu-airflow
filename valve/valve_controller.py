@@ -1,8 +1,7 @@
-########################################################
-#########   valve controller BB firmware   #############
-#########         created: 11/30/15        #############
-#########            D.M. LARICS           #############
-######################################################## 
+#!/usr/bin/env python
+#-*- coding: utf-8 -*-
+
+# BBG driver firmware for the FESTO airflow valve block
 
 
 from pymodbus.client.sync import ModbusTcpClient
